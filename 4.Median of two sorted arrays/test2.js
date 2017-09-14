@@ -1,5 +1,5 @@
-
-//log(min(m,n))
+function(){
+//O(log(min(m,n)))
 var test = function(nums1, nums2) {
     var long = nums1,
         short = nums2;
@@ -59,3 +59,4 @@ var test = function(nums1, nums2) {
 };
 
 console.log("test final result:"+ test([1,2,5],[3,4,6]));
+}();

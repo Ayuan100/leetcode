@@ -1,5 +1,6 @@
-//O(m+n))
-var test1 = function(nums1, nums2) {
+function(){
+//1. O(m+n))
+var test = function(nums1, nums2) {
     var len1 = nums1.length;
     var len2 = nums2.length;
     
@@ -39,4 +40,5 @@ var test1 = function(nums1, nums2) {
 
 };
 
-console.log("test1 final result:"+ test1([1,2,5],[3,4,6]));
+console.log("test1 final result:"+ test([1,2,5],[3,4,6]));
+}();
